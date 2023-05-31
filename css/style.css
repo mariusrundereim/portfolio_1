@@ -1,0 +1,58 @@
+@import url(./typography.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #5ddf81;
+  --clr-secondary: #7f5be8;
+  --clr-dark-1: #10121a;
+  --clr-dark-2: #2b4b4b;
+  --clr-white: white;
+
+  --radius: 15px;
+}
+
+body {
+  /* font-family: "elza-text", sans-serif; */
+  font-family: greycliff-cf, sans-serif;
+  background: var(--clr-dark-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+ol,
+p {
+  color: var(--clr-white);
+}
+
+/* Header */
+
+.primary-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header-nav-list {
+  display: flex;
+  padding-left: 0;
+}
+
+.nav-item {
+  border: 1px solid salmon;
+  list-style: none;
+}
+
+.primary-nav-link {
+  font-size: 1.2rem;
+  color: var(--clr-white);
+  text-decoration: none;
+}

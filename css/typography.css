@@ -1,0 +1,11 @@
+.bio-text {
+  font-size: clamp(1.1rem, 2vw, 2rem);
+  line-height: 1.2;
+  font-weight: 300;
+  /* width: min(100%), max(40ch); */
+  width: min(100%, 30ch);
+}
+
+.clr-primary {
+  color: var(--clr-primary);
+}
