@@ -13,6 +13,11 @@
   --clr-white: white;
 
   --radius: 15px;
+
+  --gap-s: 0.5rem;
+  --gap-m: 1rem;
+  --gap-l: 2rem;
+  --gap-xl: 4rem;
 }
 
 body {
@@ -31,6 +36,12 @@ li,
 ol,
 p {
   color: var(--clr-white);
+}
+
+p {
+  font-size: 21px;
+  color: rgb(231, 240, 235);
+  line-height: 1.6rem;
 }
 
 /* Header */
@@ -55,4 +66,36 @@ p {
   font-size: 1.2rem;
   color: var(--clr-white);
   text-decoration: none;
+}
+
+/* Hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  min-height: 20rem;
+  border: 2px dotted dodgerblue;
+  gap: var(--gap-l);
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-logo {
+  place-self: center;
+}
+
+.logo-icon {
+  fill: var(--clr-primary);
+  width: 80px;
+}
+
+hr {
+  border-color: var(--clr-dark-2);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

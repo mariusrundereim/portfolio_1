@@ -9,3 +9,15 @@
 .clr-primary {
   color: var(--clr-primary);
 }
+
+.font-hero-title {
+  font-size: 4rem;
+  color: var(--clr-primary);
+}
+
+.font-section-title {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: var(--clr-primary);
+  margin-bottom: 1rem;
+}
