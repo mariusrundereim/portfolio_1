@@ -131,6 +131,13 @@ hr {
   border-radius: var(--radius-m);
 }
 
+@media screen and (max-width: 400px) {
+  .cover-img {
+    width: 100%;
+    min-height: 70dvh;
+  }
+}
+
 .flex-center-gap {
   display: flex;
   align-items: center;
