@@ -12,7 +12,9 @@
   --clr-dark-2: #2b4b4b;
   --clr-white: white;
 
-  --radius: 15px;
+  --radius-s: 3px;
+  --radius-m: 6px;
+  --radius-l: 10px;
 
   --gap-s: 0.5rem;
   --gap-m: 1rem;
@@ -110,21 +112,7 @@ hr {
 .cover-img {
   max-width: 100%;
   object-fit: cover;
-  border-radius: var(--radius);
-}
-
-/* .project-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-} */
-
-.project-desc {
-  place-self: center;
-}
-
-.project-links {
-  align-self: end;
+  border-radius: var(--radius-m);
 }
 
 .flex-center-gap {
@@ -134,10 +122,9 @@ hr {
 }
 
 .project-content {
-  border: 1px solid gray;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: var(--gap-m);
+  gap: var(--gap-l);
   padding: var(--gap-m);
   min-height: 12rem;
 }
