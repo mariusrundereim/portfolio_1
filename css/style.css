@@ -44,6 +44,11 @@ p {
   line-height: 1.6rem;
 }
 
+.wrapper {
+  width: min(100% - 2rem);
+  margin-inline: auto;
+}
+
 /* Header */
 
 .primary-header {
@@ -98,4 +103,41 @@ hr {
   border-color: var(--clr-dark-2);
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+/* Portfolio */
+
+.cover-img {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+/* .project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+} */
+
+.project-desc {
+  place-self: center;
+}
+
+.project-links {
+  align-self: end;
+}
+
+.flex-center-gap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-content {
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--gap-m);
+  padding: var(--gap-m);
+  min-height: 12rem;
 }
