@@ -1,4 +1,4 @@
-const studyProjects = [
+export const studyProjects = [
   {
     title: "StyleVault",
     assignment: "Exam 1",
@@ -33,7 +33,3 @@ const studyProjects = [
     ],
   },
 ];
-
-//console.log(studyProjects[0].src[1].image);
-
-console.log(studyProjects[0].cover);

@@ -65,7 +65,6 @@ p {
 }
 
 .nav-item {
-  border: 1px solid salmon;
   list-style: none;
 }
 
@@ -75,13 +74,30 @@ p {
   text-decoration: none;
 }
 
+/* Icons */
+
 /* Hero */
+
+.header-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  min-height: 5rem;
+  padding: 3rem 1rem;
+  gap: var(--gap-l);
+}
 
 .hero {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  min-height: 30rem;
+
+  gap: var(--gap-l);
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   min-height: 20rem;
-  border: 2px dotted dodgerblue;
   gap: var(--gap-l);
 }
 
