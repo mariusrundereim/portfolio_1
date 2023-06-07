@@ -6,6 +6,18 @@
   width: min(100%, 30ch);
 }
 
+.font-mono {
+  font-family: "anonymous-pro", monospace;
+  font-weight: 400;
+  /* font-style: italic; */
+}
+
+.font-about-p {
+  width: min(45ch, 100%);
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  line-height: clamp(1.7rem, 3vw, 2.5rem);
+}
+
 .clr-primary {
   color: var(--clr-primary);
 }
@@ -26,4 +38,5 @@
 .project-title {
   color: var(--clr-secondary);
   font-size: clamp(1.7rem, 2vw, 2.5rem);
+  margin-bottom: 1rem;
 }

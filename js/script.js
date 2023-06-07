@@ -26,7 +26,7 @@ studyProjects.forEach((project) => {
             </div>
 
             <div class="project-links">
-              <div class="flex-center-gap">
+              <div class="flex-center-gap-pad">
                 <a href="${project.url[1]}" >
                   ><svg
                     width="37"
@@ -42,7 +42,7 @@ studyProjects.forEach((project) => {
                 ></a>
                 <p>Github</p>
               </div>
-              <div class="flex-center-gap">
+              <div class="flex-center-gap-pad">
                 <a href="${project.url[0]}" >
                   ><svg
                     width="37"
