@@ -1,0 +1,22 @@
+@media screen and (max-width: 400px) {
+  .cover-img {
+    width: 100%;
+    min-height: 70dvh;
+  }
+
+  .flex-center-gap-pad {
+    padding: 0rem;
+  }
+
+  .ext-icon-text {
+    display: none;
+  }
+
+  .project-content {
+    min-height: 15rem;
+  }
+
+  .project-links {
+    display: flex;
+  }
+}

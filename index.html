@@ -24,9 +24,17 @@
         <span class="clr-primary">Front-end development</span> at Noroff -
         Higher Vocational School
       </p>
-      <div>
-        <p>Portfolio</p>
-        <p>Summer 2023</p>
+
+      <div class="user-container">
+        <img
+          class="profile-pic"
+          src="./images/mr-profile.png"
+          alt="Profile picture"
+        />
+        <div class="user-desc">
+          <p>Marius Rundereim</p>
+          <p>Avaiable for internships</p>
+        </div>
       </div>
     </header>
     <section class="hero">
@@ -45,9 +53,11 @@
         </svg>
       </div>
       <div class="hero-title">
-        <p class="font-hero-title">Hi there 👋</p>
-        <p>My name is Marius Rundereim</p>
-        <p>Front-end developer || Graphic designer</p>
+        <div>
+          <p class="font-hero-title">Hi there 👋</p>
+          <p>My name is Marius Rundereim</p>
+          <p>Front-end developer || Graphic designer</p>
+        </div>
       </div>
     </section>
     <hr />
@@ -73,98 +83,103 @@
 
             <div>
               <!--Github-->
-              <div class="flex-center-gap">
-                <a href="https://github.com/mariusrundereim" target="_blank">
-                  <svg
-                    width="38"
-                    height="38"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
-                      stroke="var(--clr-dark-2)"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+
+              <a
+                class="flex-center-gap"
+                href="https://github.com/mariusrundereim"
+                target="_blank"
+              >
+                <svg
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
+                    stroke="var(--clr-dark-2)"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
                 <p>GitHub</p>
-              </div>
+              </a>
+
               <!--LinkedIn-->
-              <div class="flex-center-gap">
-                <a
-                  href="https://www.linkedin.com/in/mariusrundereim/"
-                  target="_blank"
+
+              <a
+                class="flex-center-gap"
+                href="https://www.linkedin.com/in/mariusrundereim/"
+                target="_blank"
+              >
+                <svg
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="38"
-                    height="38"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
-                      stroke="var(--clr-dark-2)"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                  <path
+                    d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
+                    stroke="var(--clr-dark-2)"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
                 <p>LinkedIn</p>
-              </div>
+              </a>
+
               <!--Instagram-->
-              <div class="flex-center-gap">
-                <a
-                  href="https://www.instagram.com/mariusrundereim/"
-                  target="_blank"
+
+              <a
+                class="flex-center-gap"
+                href="https://www.instagram.com/mariusrundereim/"
+                target="_blank"
+              >
+                <svg
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="38"
-                    height="38"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
-                      stroke="var(--clr-dark-2)"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                  <path
+                    d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
+                    stroke="var(--clr-dark-2)"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
                 <p>Instagram</p>
-              </div>
+              </a>
+
               <!--Behance-->
-              <div class="flex-center-gap">
-                <a
-                  href="https://www.behance.net/mariusrundereim"
-                  target="_blank"
+              <a
+                class="flex-center-gap"
+                href="https://www.behance.net/mariusrundereim"
+                target="_blank"
+              >
+                <svg
+                  width="38"
+                  height="38"
+                  viewBox="0 0 38 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    width="38"
-                    height="38"
-                    viewBox="0 0 38 38"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
-                      stroke="var(--clr-dark-2)"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                  <path
+                    d="M21.375 9.5H8.3125C7.36767 9.5 6.46153 9.87533 5.79343 10.5434C5.12533 11.2115 4.75 12.1177 4.75 13.0625V29.6875C4.75 30.6323 5.12533 31.5385 5.79343 32.2066C6.46153 32.8747 7.36767 33.25 8.3125 33.25H24.9375C25.8823 33.25 26.7885 32.8747 27.4566 32.2066C28.1247 31.5385 28.5 30.6323 28.5 29.6875V16.625M11.875 26.125L33.25 4.75M33.25 4.75H24.9375M33.25 4.75V13.0625"
+                    stroke="var(--clr-dark-2)"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
                 <p>Behance</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
