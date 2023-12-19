@@ -1,5 +1,17 @@
 export const studyProjects = [
   {
+    title: "Bidify",
+    assignment: "Semester Project 2",
+    year: 2023,
+    desc: "Lorem ipsum dolor",
+    cover: "./images/bidify_cover.png",
+    cover_alt: "This is a cover image for this project",
+    url: [
+      "https://mariusrundereim.github.io/marius-semester-project-2",
+      "https://github.com/mariusrundereim/marius-semester-project-2",
+    ],
+  },
+  {
     title: "StyleVault",
     assignment: "Exam 1",
     year: 2023,
@@ -13,7 +25,7 @@ export const studyProjects = [
   },
   {
     title: "Community Science Museum",
-    assignment: "Semester Exam 1",
+    assignment: "Semester Project 1",
     year: 2022,
     desc: "Lorem ipsum dolor",
     cover: "./images/communityscience_cover.png",
