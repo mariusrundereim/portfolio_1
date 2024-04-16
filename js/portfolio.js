@@ -1,5 +1,17 @@
 export const studyProjects = [
   {
+    title: "Kaupa",
+    assignment: "JavaScript Frameworks",
+    year: 2024,
+    desc: "Lorem ipsum dolor",
+    cover: "./images/kaupa_cover.png",
+    cover_alt: "This is a cover image for this project",
+    url: [
+      "https://brilliant-madeleine-06f016.netlify.app/",
+      "https://github.com/mariusrundereim/fed-frameworks-ca-marius",
+    ],
+  },
+  {
     title: "Bidify",
     assignment: "Semester Project 2",
     year: 2023,

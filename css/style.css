@@ -133,7 +133,7 @@ a {
 .header-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  min-height: 5rem;
+  min-height: 20rem;
   padding: 1rem;
   gap: var(--gap-l);
 }
